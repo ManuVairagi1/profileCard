@@ -1,0 +1,153 @@
+/* /* body {
+  background: url(http://i.imgur.com/k8BtMvj.jpg);
+  background-size: cover;
+} */
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 0;
+}
+
+.logo {
+  margin: 10px;
+}
+
+.container {
+  margin-top: 100px;
+  width: 1100px;
+  margin-left: 260px;
+  height: 500px;
+  box-shadow: 0px 0px 5px 4px rgba(155, 152, 152, 0.7);
+}
+
+.profile {
+  background-color: #ff9933;
+  display: flex;
+  height: 180px;
+  align-items: center;
+  color: white;
+
+  display: flex;
+  width: 1080px;
+  margin-left: 10px;
+}
+.profile::after {
+  content: "";
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  height: 181px;
+  width: 210px;
+  right: -40%;
+  border: none;
+  background-image: url(./user.png);
+  background-size: cover;
+}
+
+.name img {
+  height: 25px;
+}
+
+.name img {
+  cursor: pointer;
+}
+.name img:hover {
+  width: 30px;
+  height: 30px;
+  transition: 0.25s ease;
+}
+
+.kunal {
+  font-size: 25px;
+}
+
+.ceo {
+  font-size: 40px;
+}
+.photo {
+  margin-left: 380px;
+  background-color: white;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+.aboutMe {
+  margin: 13px;
+}
+.aboutMe h1 {
+  text-align: center;
+  border-bottom: 1px rgb(184, 181, 181) solid;
+  margin-top: 5px;
+}
+.company h1 {
+  text-align: center;
+  border-bottom: 1px rgb(184, 181, 181) solid;
+}
+.company {
+  font-size: 15px;
+}
+.dark {
+  font-weight: 900;
+  font-size: large;
+  border-bottom: 1px grey solid;
+  margin-bottom: 2px;
+}
+.website:hover {
+  color: #ff9933;
+  transition: 0.25s ease;
+  cursor: pointer;
+}
+.side {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 360px;
+  width: 50px;
+  top: -99%;
+  z-index: 0;
+  right: -100%;
+
+  border-left: 2px solid white;
+}
+
+.side img {
+  padding: 5px;
+  padding-top: 25px;
+}
+
+.box1 {
+  box-shadow: 3px 3px 6px -3px rgba(112, 112, 112, 0.7);
+}
+
+/* media queries */
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 15px;
+    text-align: center;
+  }
+  .kunal {
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+  .logo {
+    margin: 1px;
+  }
+
+  .container {
+    width: 400px;
+    height: 1000px;
+  }
+  .profile {
+    display: block;
+    width: 380px;
+    height: 300px;
+  }
+  .about {
+    display: block;
+    margin: 40px;
+  }
+
+  .side {
+    top: -100%;
+  }
+}
