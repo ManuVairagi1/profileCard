@@ -148,6 +148,9 @@ body {
   }
 
   .side {
-    top: -100%;
+    top: -105%;
+    height: 10px;
+    margin: 1px;
+    padding: 1px;
   }
 }
