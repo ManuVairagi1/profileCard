@@ -38,7 +38,7 @@ body {
   width: 210px;
   right: -40%;
   border: none;
-  background-image: url(./user.png);
+  background-image: url(images/user.png);
   background-size: cover;
 }
 
